@@ -1,0 +1,32 @@
+/*8px based system*/
+body{
+    
+    font-size: 16px;
+    padding:0px;
+    margin: 0px;
+}
+
+.container{
+    
+    display: flex;
+    margin-left:30%;
+    margin-top:20%;
+
+}
+
+.info{
+    border: 2px, dashed, blue;
+    font-weight:800;
+    margin-bottom: 8px;
+    margin-right:2%;
+}
+
+#data{
+   
+    text-align: center;
+    border-radius: 8px;   
+}
+
+
+
+/*TESTING TRICK*/
