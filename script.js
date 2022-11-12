@@ -1,7 +1,6 @@
-//import {retrieveData} from '../UI/getData.js'
+
 var fs = require('fs');
-/*var jsdom = require("jsdom");
-var dom = jsdom.JSDOM;*/
+
 
 
 
@@ -60,7 +59,8 @@ function appendPassWordToFile(obj)
     })
 }
 
-/**read data from @file*/
+/**read data from
+@file*/
 
 function readData(file)
 {
@@ -72,7 +72,9 @@ function readData(file)
     })
 }
 
-/***checks if @file can be accessed by current user */
+/***checks if 
+@file can be accessed by current user */
+
 function hassAccess(file)
 {
     fs.access(`${file}`,fs.constants.F_OK, function(e,r){
