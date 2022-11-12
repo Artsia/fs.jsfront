@@ -1,7 +1,7 @@
 //import {retrieveData} from '../UI/getData.js'
 var fs = require('fs');
-var jsdom = require("jsdom");
-var dom = jsdom.JSDOM;
+/*var jsdom = require("jsdom");
+var dom = jsdom.JSDOM;*/
 
 
 
@@ -81,7 +81,6 @@ function hassAccess(file)
     })
 }
 
-console.log("asdsad")
 
 
 
@@ -96,6 +95,8 @@ console.log("asdsad")
 
 
 
+
+/* Testing cases:
 
 const p1 = hashing("google",50);
 const c = createFile(p1)
@@ -106,5 +107,5 @@ const appendF = appendPassWordToFile(p1);
 //readData('mynewfile3.txt')
 
 hassAccess('google.txt') 
-
+*/
 
