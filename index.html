@@ -4,29 +4,21 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>wordGen.com</title>
+        <title>Create Password</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
-        <script src="./getData.js"></script>
     </head>
     <body>
         <div class="container">
-           <!--<div class="info">Input file name  </div>
+            <div class="info">Input file name  </div>
             <div class="input">
-                <input id="data" type="text">
-                <button class="button" type="button">Enter</button>
-            </div>-->
-            
-           <form name="contact" netlify>
-              <p>
-                <label>File name <input type="text" name="fname" /></label>
-              </p>
-              <p>
-                <button type="submit">Send</button>
-              </p>
-            </form>
-                
+                <form action="" method="get" class="form-section">
+                    <input id="data" type="text" required>
+                    <button id="button" type="button" onclick="retrieveData()">Enter</button>
+                </form>
+            </div>
         </div>
+        <script src="getData.js"></script>
     </body>
 </html>
