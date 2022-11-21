@@ -1,21 +1,16 @@
-
-/*global console , document*/ 
-/*eslint-disable no-console*/
-
 /**Retreieve data from input tag when button is clicked */
 function retrieveData(){
 
-    const inputTag = document.getElementById('data').textContent;
+    const inputTagText = document.getElementById('data').value;
 
-    const btn = document.querySelector('button');
+    const btn = document.getElementById('button');
 
-    //add event listener
+    /*let result = hashing(inputTagText);
+    console.log(result.createdPassword);
+    alert("search for: "+inputTagText+
+    " file in your downloads for generated password with .txt extension");*/
 
-    btn.addEventListener('click', ()=>{
-        alert(inputTag)
-    })
-
-
+    console.log("File name is : "+inputTagText)
 }
 
 
